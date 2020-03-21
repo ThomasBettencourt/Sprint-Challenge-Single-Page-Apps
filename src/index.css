@@ -1,7 +1,18 @@
+/* UBUNTU FONT */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* STYLING */ 
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: lightblue;
 }
 
 main {
@@ -30,4 +41,34 @@ main {
 
 header h1 {
   text-align: center;
+}
+
+.main-buttons{
+  margin: 10px auto;
+  width: 100px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  border: 4px red solid;
+  font-weight: bolder;
+}
+
+.main-buttons:hover {
+  background-color: red;
+  border: 4px black solid;
+  color: black;
+
+}
+
+.main-img {
+  border: 5px black solid;
+  border-radius: 10px;
+}
+
+.search-form input {
+  border-radius: 5px;
 }
